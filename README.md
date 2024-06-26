@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Back-End project using Laravel**
 
-- 🌱 I’m currently learning **Back and Front-end Frameworks**
+- 🌱 I’m currently learning **Back-end Frameworks a, Front-end libraries and UI/UX Design**
 
 - 👯 I’m looking to collaborate on **React.js Projects and Laravel**
 
