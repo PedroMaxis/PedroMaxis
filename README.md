@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Pedro Sales</h1>
 <h3 align="center">A passionate frontend and backend developer from Brazil</h3>
 
-- 🔭 I’m currently working on **Back-End and Front-end projects**
+- 🔭 I’m currently working on **Back-End project using Laravel**
 
 - 🌱 I’m currently learning **Back and Front-end Frameworks**
 
