@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Pedro Sales</h1>
 <h3 align="center">A passionate frontend and backend developer from Brazil</h3>
 
-- 🔭 I’m currently working on **Back-End and Front-end projects**
+- 🔭 I’m currently working on **Full-Stack projects**
 
 - 🌱 I’m currently learning **Back and Front-end Frameworks**
 
-- 👯 I’m looking to collaborate on **React.js Projects and Laravel**
+- 👯 I’m looking to collaborate on **React.js Projects and Node.js**
 
 - 📫 How to reach me **pedro11sales14@gmail.com**
 
