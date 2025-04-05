@@ -57,13 +57,6 @@ I'm a passionate Full-Stack developer from Brazil, currently focusing on backend
 ![Webpack](https://img.shields.io/badge/-Webpack-05122A?style=flat&logo=webpack)
 ![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobephotoshop)
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pedrolsales&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrolsales&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
 ## 🌱 Currently Learning
 
 I'm always improving my skills and currently focusing on:
