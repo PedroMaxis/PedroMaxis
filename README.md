@@ -49,9 +49,10 @@ I'm a passionate Full-Stack developer from Brazil, currently focusing on backend
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
 ![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite)
 
-### Tools & Others
+### Tools & DevOps
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![Azure DevOps](https://img.shields.io/badge/-Azure_DevOps-05122A?style=flat&logo=azuredevops)
 ![Figma](https://img.shields.io/badge/-Figma-05122A?style=flat&logo=figma)
 ![Postman](https://img.shields.io/badge/-Postman-05122A?style=flat&logo=postman)
 ![Webpack](https://img.shields.io/badge/-Webpack-05122A?style=flat&logo=webpack)
@@ -64,7 +65,7 @@ I'm always improving my skills and currently focusing on:
 - Advanced Node.js architectures and patterns
 - Next.js 14 features and optimizations
 - API design and best practices
-- CI/CD pipelines and DevOps principles
+- CI/CD pipelines with Azure DevOps
 
 ## 💼 Featured Projects
 
