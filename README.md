@@ -11,7 +11,7 @@
 
 I'm a developer from Brazil who likes building things end to end — from web apps and internal tools to automation frameworks and low-level networked software. My day-to-day is TypeScript and Python; on the side I'm going deeper into C++ and systems programming.
 
-- 🤖 Built a **deterministic RPA framework** solo, from the code generator to the runner and the management client
+- 🤖 Built a **deterministic RPA framework** solo, from the management platform to the runner and the automation scripts
 - 🛰️ Currently building **TunnelRat**, a low-latency LAN game/desktop streaming app in C++
 - 💬 Shipped and maintain **LeTopeiras Client**, a desktop Discord-style app with voice and 60 fps screen sharing
 - 🧠 Using **agentic AI workflows** (Claude Code, MCP, multi-agent pipelines) as part of how I ship software
@@ -34,11 +34,11 @@ A Discord-style desktop app used daily by a small group of friends, actively mai
 
 ### 🤖 Deterministic RPA Framework — *private, production*
 A browser automation platform built as a sellable product, designed to be predictable and auditable — no LLM in the execution loop.
-- **Code generation pipeline:** Playwright codegen → AST parser → intermediate representation → Jinja2 templates
-- **Runtime:** standardized exit codes, retry/backoff, screenshot evidence for every step, JSONL logging and trace artifacts
-- **Tooling:** Flask web UI for analysts plus a client to manage executions and track metrics
+- **RPA Manager:** TypeScript API + React frontend to manage executions and track metrics
+- **Runner:** Electron desktop app (JavaScript) that executes and orchestrates the automations
+- **Automation scripts:** Python + Playwright, with standardized exit codes, retry/backoff, screenshot evidence for every step, JSONL logging and trace artifacts
 - Designed, built and maintained solo, end to end
-- **Stack:** Python, Playwright, Jinja2, Flask
+- **Stack:** TypeScript, React, Electron, JavaScript, Python, Playwright
 
 ## 🛠️ Tech Stack
 
@@ -52,18 +52,17 @@ A browser automation platform built as a sellable product, designed to be predic
 ### Backend
 ![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)
 ![Express](https://img.shields.io/badge/-Express-05122A?style=flat&logo=express)
-![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)
 
 ### Frontend
 ![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js)
+![Electron](https://img.shields.io/badge/-Electron-05122A?style=flat&logo=electron)
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-05122A?style=flat&logo=tailwindcss)
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
 
 ### Automation & AI
 ![Playwright](https://img.shields.io/badge/-Playwright-05122A?style=flat&logo=playwright)
-![Jinja](https://img.shields.io/badge/-Jinja2-05122A?style=flat&logo=jinja)
 ![Claude Code](https://img.shields.io/badge/-Claude_Code-05122A?style=flat&logo=claude)
 ![MCP](https://img.shields.io/badge/-MCP-05122A?style=flat&logo=modelcontextprotocol)
 
