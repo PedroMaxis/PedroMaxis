@@ -1,79 +1,92 @@
 <h1 align="center">👨‍💻 Pedro Sales</h1>
-<h3 align="center">Full-Stack Developer from Brazil | PHP | Node.js | Next.js</h3>
+<h3 align="center">Software Developer from Brazil · Full-Stack · Automation · Systems</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=339933"/>
-  <img src="https://img.shields.io/badge/Backend-PHP-informational?style=flat&logo=php&logoColor=white&color=777BB4"/>
-  <img src="https://img.shields.io/badge/Frontend-Next.js-informational?style=flat&logo=next.js&logoColor=white&color=000000"/>
-  <img src="https://img.shields.io/badge/Frontend-React-informational?style=flat&logo=react&logoColor=white&color=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-Node.js%20%7C%20React-informational?style=flat&logo=typescript&logoColor=white&color=3178C6"/>
+  <img src="https://img.shields.io/badge/Python-Playwright%20RPA-informational?style=flat&logo=python&logoColor=white&color=3776AB"/>
+  <img src="https://img.shields.io/badge/C++-Systems-informational?style=flat&logo=cplusplus&logoColor=white&color=00599C"/>
 </p>
 
 ## 🚀 About Me
 
-I'm a passionate Full-Stack developer from Brazil, currently focusing on backend development with PHP and Node.js, while also working with Next.js for frontend solutions. I'm continually expanding my knowledge in both backend and frontend technologies to build robust, scalable applications.
+I'm a developer from Brazil who likes building things end to end — from web apps and internal tools to automation frameworks and low-level networked software. My day-to-day is TypeScript and Python; on the side I'm going deeper into C++ and systems programming.
 
-- 🔭 I'm currently working on **building my portfolio of Full-Stack projects**
-- 🌱 I'm learning more about **advanced Node.js patterns and Next.js features**
-- 👯 I'm looking to collaborate on **open-source React.js and Node.js projects**
-- 🎯 2025 Goals: Contribute more to open source projects and expand my GitHub portfolio
-- ⚡ Fun fact: **I love all types of music and am always open to new recommendations!**
+- 🤖 Built a **deterministic RPA framework** solo, from the code generator to the runner and the management client
+- 🛰️ Currently building **TunnelRat**, a low-latency LAN game/desktop streaming app in C++
+- 💬 Building **LeTopeiras Client**, a desktop Discord-style app with voice and 60 fps screen sharing
+- 🧠 Using **agentic AI workflows** (Claude Code, MCP, multi-agent pipelines) as part of how I ship software
+- 🎯 2026 goals: publish more of my work as open source and go deeper into systems programming
+
+## 💼 Featured Projects
+
+### 🛰️ TunnelRat — *in progress*
+A from-scratch, Parsec-style remote desktop streaming app for local networks.
+- Low-latency **1080p60** streaming with **gamepad support**
+- Cross-platform: **Windows ↔ Linux**, and either machine can act as host
+- Built for gaming and remote programming sessions
+- **Stack:** C++
+
+### 💬 [LeTopeiras Client](https://github.com/PedroMaxis/LeTopeirasClient) — *in progress*
+A private Discord-style desktop app for a small group of friends.
+- Voice chat and **60 fps screen sharing with audio**
+- Designed to run on **zero-cost hosting**
+- **Stack:** Node.js + TypeScript backend, desktop client for Windows
+
+### 🤖 Deterministic RPA Framework — *private, production*
+A browser automation platform built as a sellable product, designed to be predictable and auditable — no LLM in the execution loop.
+- **Code generation pipeline:** Playwright codegen → AST parser → intermediate representation → Jinja2 templates
+- **Runtime:** standardized exit codes, retry/backoff, screenshot evidence for every step, JSONL logging and trace artifacts
+- **Tooling:** Flask web UI for analysts plus a client to manage executions and track metrics
+- Designed, built and maintained solo, end to end; onboarded QA to operate it in production
+- **Stack:** Python, Playwright, Jinja2, Flask
 
 ## 🛠️ Tech Stack
+
+### Languages
+![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)
+![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=cplusplus)
 
 ### Backend
 ![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)
 ![Express](https://img.shields.io/badge/-Express-05122A?style=flat&logo=express)
-![PHP](https://img.shields.io/badge/-PHP-05122A?style=flat&logo=php)
-![Laravel](https://img.shields.io/badge/-Laravel-05122A?style=flat&logo=laravel)
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)
+![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)
 
 ### Frontend
 ![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js)
-![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-05122A?style=flat&logo=tailwindcss)
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
-![Sass](https://img.shields.io/badge/-Sass-05122A?style=flat&logo=sass)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-05122A?style=flat&logo=bootstrap)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-05122A?style=flat&logo=tailwindcss)
 
-### Mobile
-![React Native](https://img.shields.io/badge/-React_Native-05122A?style=flat&logo=react)
-![Android](https://img.shields.io/badge/-Android-05122A?style=flat&logo=android)
-![Kotlin](https://img.shields.io/badge/-Kotlin-05122A?style=flat&logo=kotlin)
-![Swift](https://img.shields.io/badge/-Swift-05122A?style=flat&logo=swift)
+### Automation & AI
+![Playwright](https://img.shields.io/badge/-Playwright-05122A?style=flat&logo=playwright)
+![Jinja](https://img.shields.io/badge/-Jinja2-05122A?style=flat&logo=jinja)
+![Claude Code](https://img.shields.io/badge/-Claude_Code-05122A?style=flat&logo=claude)
+![MCP](https://img.shields.io/badge/-MCP-05122A?style=flat&logo=modelcontextprotocol)
 
-### Database
-![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)
-![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql)
+### Databases
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)
+![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql)
+![MongoDB](https://img.shields.io/badge/-MongoDB-05122A?style=flat&logo=mongodb)
 ![SQLite](https://img.shields.io/badge/-SQLite-05122A?style=flat&logo=sqlite)
 
-### Tools & DevOps
+### Tools & Platforms
 ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
 ![Azure DevOps](https://img.shields.io/badge/-Azure_DevOps-05122A?style=flat&logo=azuredevops)
-![Figma](https://img.shields.io/badge/-Figma-05122A?style=flat&logo=figma)
 ![Postman](https://img.shields.io/badge/-Postman-05122A?style=flat&logo=postman)
-![Webpack](https://img.shields.io/badge/-Webpack-05122A?style=flat&logo=webpack)
-![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobephotoshop)
+![Arch Linux](https://img.shields.io/badge/-Arch_Linux-05122A?style=flat&logo=archlinux)
+![Windows](https://img.shields.io/badge/-Windows-05122A?style=flat&logo=windows)
 
 ## 🌱 Currently Learning
 
-I'm always improving my skills and currently focusing on:
-
-- Advanced Node.js architectures and patterns
-- Next.js 14 features and optimizations
-- API design and best practices
-- CI/CD pipelines with Azure DevOps
-
-## 💼 Featured Projects
-
-While I'm building my GitHub portfolio, here are some projects I'm working on:
-
-- **Coming Soon**: Backend API with Node.js and Express
-- **In Progress**: Full-stack application with Next.js, Node.js, and MongoDB
-- **Planning**: PHP/Laravel dashboard application
+- Real-time video/audio streaming and low-latency networking
+- Modern C++ and systems programming
+- Scalable Node.js architectures
+- Agentic development workflows
 
 ## 🤝 Connect with me
 
@@ -91,5 +104,3 @@ While I'm building my GitHub portfolio, here are some projects I'm working on:
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=pedrolsales&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
-
-<!-- You can customize this README further by adding your own projects and achievements as you build your portfolio -->
