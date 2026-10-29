@@ -13,7 +13,7 @@ I'm a developer from Brazil who likes building things end to end — from web ap
 
 - 🤖 Built a **deterministic RPA framework** solo, from the code generator to the runner and the management client
 - 🛰️ Currently building **TunnelRat**, a low-latency LAN game/desktop streaming app in C++
-- 💬 Building **LeTopeiras Client**, a desktop Discord-style app with voice and 60 fps screen sharing
+- 💬 Shipped and maintain **LeTopeiras Client**, a desktop Discord-style app with voice and 60 fps screen sharing
 - 🧠 Using **agentic AI workflows** (Claude Code, MCP, multi-agent pipelines) as part of how I ship software
 - 🎯 2026 goals: publish more of my work as open source and go deeper into systems programming
 
@@ -26,8 +26,8 @@ A from-scratch, Parsec-style remote desktop streaming app for local networks.
 - Built for gaming and remote programming sessions
 - **Stack:** C++
 
-### 💬 [LeTopeiras Client](https://github.com/PedroMaxis/LeTopeirasClient) — *in progress*
-A private Discord-style desktop app for a small group of friends.
+### 💬 [LeTopeiras Client](https://github.com/PedroMaxis/LeTopeirasClient) — *in production*
+A Discord-style desktop app used daily by a small group of friends, actively maintained with new features driven by user requests.
 - Voice chat and **60 fps screen sharing with audio**
 - Designed to run on **zero-cost hosting**
 - **Stack:** Node.js + TypeScript backend, desktop client for Windows
@@ -37,7 +37,7 @@ A browser automation platform built as a sellable product, designed to be predic
 - **Code generation pipeline:** Playwright codegen → AST parser → intermediate representation → Jinja2 templates
 - **Runtime:** standardized exit codes, retry/backoff, screenshot evidence for every step, JSONL logging and trace artifacts
 - **Tooling:** Flask web UI for analysts plus a client to manage executions and track metrics
-- Designed, built and maintained solo, end to end; onboarded QA to operate it in production
+- Designed, built and maintained solo, end to end
 - **Stack:** Python, Playwright, Jinja2, Flask
 
 ## 🛠️ Tech Stack
